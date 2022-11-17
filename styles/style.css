@@ -1,0 +1,165 @@
+@media only screen and (max-divice-width: 1440px) @font-face {
+  font-family: RetroTeam;
+  src: url('fonts/RetroTeam.otf');
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    margin: 1em 2em;
+  }
+}
+
+body {
+  background-color: black;
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+
+.rockAndRoll {
+  font-family: RetroTeam;
+}
+
+.patrocinador {
+  background-color: white;
+  padding: 30px;
+  margin: 16px;
+  border-radius: 50%;
+}
+
+.patrocinador-image {
+  width: 100px;
+  height: 100px;
+}
+
+.carousel {
+  overflow-x: auto;
+}
+
+.card {
+  width: 300px;
+  background-color: white;
+  text-align: center;
+  border-radius: 16px;
+  position: relative;
+  margin: 12px;
+}
+
+.card-title {
+  width: 180px;
+  height: 26px;
+  border-radius: 16px;
+  position: absolute;
+  left: 50%;
+  top: 36%;
+  margin-left: -90px;
+}
+
+.card-image {
+  width: 300px;
+  border-radius: 16px 16px 0 0;
+}
+
+.image {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('imgs/background-cropped.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  object-fit: cover;
+  height: 450px;
+}
+
+.grid {
+  align-items: center;
+  justify-content: center;
+}
+
+.image-grid {
+  height: 175px;
+  width: 250px;
+  margin: 8px;
+}
+
+.col-video1 {
+  width: 60%;
+}
+
+.col-video2 {
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+}
+
+.button {
+  border-radius: 16px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 12px;
+  width: 60%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.col {
+  width: 50%;
+  padding: 16px;
+}
+
+.color-yellow {
+  background-color: #f6bf45;
+}
+
+.color-orange {
+  background-color: #f66f45;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: center;
+  background-color: #f6bf45;
+  border-radius: 24px;
+  padding: 16px;
+  width: 60%;
+}
+
+.item {
+  margin: 20px;
+}
+
+.item-menu {
+  color: black;
+  text-decoration: none;
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-white {
+  color: white;
+}
